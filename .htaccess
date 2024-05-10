@@ -1,0 +1,5 @@
+RewriteEngine On
+php_value  include_path './hooks'
+php_value auto_prepend_file 'prepend.php'
+php_value auto_append_file 'append.php'
+
